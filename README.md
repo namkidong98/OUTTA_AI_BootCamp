@@ -1,7 +1,7 @@
 # OUTTA_AI_BootCamp
 2023 OUTTA AI BootCamp, 'Data' Class
 <br>
-
+<br>
 ## 학습 목표
 #### 1. 데이터 분석 전과정에 대해 이해할 수 있다
 #### 2. 데이터 기반 사고를 연습할 수 있다

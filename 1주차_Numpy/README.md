@@ -75,4 +75,13 @@
 <br>
 
 # 인덱싱과 슬라이싱
-1. 
+1. ndarray[row][column] == ndarray[row, column] : 0부터 시작하는 인덱스를 row와 column을 기준으로 넣어 ndarray 혹은 원소를 반환한다 (인덱싱)
+
+2. ndarray[ start: stop , start : stop ] : row, column 순으로 인덱스를 start이상 stop미만을 적용하여 해당 범위의 ndarray를 반환한다 (슬라이싱)
+
+3. ndarray[ : , : ] = np.nan : ndarray의 전체 원소를 결측치(NaN)으로 대체한다 (단, float인 경우에만 가능하므로 astype을 적용할 필요가 있다)
+
+4. ndarray < 0 : 원소가 음수인가를 기준으로 ndarray의 모든 원소를 True / False 값으로 대체한 새로운 ndarray를 반환한다
+
+5. ndarray[ 조건 ] = '숫자' : 조건에 부합하는 원소들, 즉 True가 반환되는 원소들만을 인덱싱하여 원하는 숫자를 대입한다
+    <br> cf) ndarray[ ndarray < 0 ] = 0 : 0보다 작은 원소들에 0을 대입한다

@@ -233,6 +233,6 @@ for i in range(0,1):          #전체 제품을 한번에 크롤링하지 않고
 
 driver.quit()
 
-wb.save("올리브영_판매랭킹_스킨케어.xlsx") 
+wb.save("After Crawling.xlsx")
 
-# ### 크롤링한 결과를 엑셀에 저장 (상단에서 만든 엑셀 파일명고 동일하게)
+#

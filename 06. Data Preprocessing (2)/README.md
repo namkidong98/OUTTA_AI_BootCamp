@@ -31,6 +31,8 @@ df.dropna(inplace = True)
 df[(df['model'].str.contains('Ioniq')) & (df['mpg'] == 256.8)]
 ```
 
+<br>
+
 ## 범주형 데이터 자료 변환
 - **model을 그룹화하고 그룹마다 평균을 구해 내림차순으로 정렬하고 그룹마다 특정 숫자로 변환**
   1. .mean()을 적용하면 series로 반환되는데 이를 to_frame()을 적용해야 데이터 프레임으로 변환하여 sort_values를 적용할 수 있게 된다

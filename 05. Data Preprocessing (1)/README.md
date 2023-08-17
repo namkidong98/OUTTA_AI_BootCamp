@@ -1,4 +1,4 @@
-### 전처리에 사용된 함수
+## 전처리에 사용된 함수
 - df = **df.reset_index(drop = True)** : 데이터 프레임의 인덱스를 재설정한다
   <br> cf) drop = True : 기존의 인덱스를 삭제한다 (default는 false인데 그러면 기존 인덱스는 'index'열로 따로 유지된다)
 
